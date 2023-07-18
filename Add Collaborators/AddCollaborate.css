@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
+.addcollab-page {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  background-color:  rgba(0, 19, 37, 0.50);
+  z-index: 3;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 27.5%;
+  padding-top: 10%;
+  width: 100%;
+  height: 155vh;
+}
+.addcollab-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3.6vh 1.7vw;
+  width: 38vw;
+  height: auto;
+  font-family: Inter;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #edf2f7;
+  box-shadow: 0px 12px 32px 0px rgba(6, 28, 61, 0.08);
+}
+.addcollab-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.6vh;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+}
+.addcollab-head span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+}
+.addcollab-invite {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 3.6vh;
+}
+.addcollab-invite span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+}
+.inp-btn-collab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+.inp-btn-collab input {
+  padding: 1.5vh 1.1vw;
+  width: 29.5vw;
+  outline: none;
+  border: 2px solid #edf2f7;
+  border-radius: 4px;
+  height: 6vh;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.inp-btn-collab button {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: -0.14px;
+  height: 6vh;
+  padding: 1.5vh 1.4vw;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    ),
+    #610bee;
+}
+.addcollab-collaboarters {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4vh;
+}
+.collabs {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+}
+.collab-search {
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid #edf2f7;
+  background: white;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  height: 6vh;
+  gap: 8px;
+  /* width: 37.3vw; */
+  width: 100%;
+}
+.collab-search input {
+  height: 100%;
+  width: 90%;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.collab-members-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.collab-members {
+  max-height: 30vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.collab-members img {
+  height: 4.8vh;
+  width: 2.3vw;
+  border-radius: 50%;
+}
+.collab-span {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.collab-members-list:hover {
+  background: #f6f6f6;
+  cursor: pointer;
+}
+.collab-members button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+  border-radius: 5px;
+}
